@@ -1,7 +1,3 @@
-# ============================================================
-# TEST: Verify all libraries are installed correctly
-# ============================================================
-
 print("Testing all imports...")
 
 import pandas as pd
@@ -26,10 +22,6 @@ print(f"✅ scipy {scipy.__version__}")
 
 print("\n🎉 All libraries installed! Ready to run analysis.")
 
-# ============================================================
-# QUICK TEST: Generate a simple plot
-# ============================================================
-
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
@@ -50,4 +42,4 @@ plt.savefig('visualizations/test_plot.png')
 plt.show()
 
 print("✅ Plot saved to visualizations/test_plot.png")
-print("\n🚀 VS Code is fully set up for your analysis!")
+print("\n🚀 VS Code is fully set up for the analysis!")
